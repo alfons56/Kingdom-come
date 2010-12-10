@@ -1,0 +1,7 @@
+Player starts account
+Player builds building
+Player upgrades building
+Player downgrades building
+Player assigns workers to building
+Player distributes resources
+Player starts research

@@ -1,0 +1,590 @@
+Array
+(
+    [id] => 1
+    [player_id] => 1
+    [name] => freppestad
+    [BuildingsCity] => Array
+        (
+            [62] => Array
+                (
+                    [id] => 62
+                    [building_id] => 6
+                    [city_id] => 1
+                    [level] => 3
+                    [upgrade_time] => 
+                    [created] => 2010-05-06 11:43:41
+                    [modified] => 2010-05-06 11:43:41
+                    [Building] => Array
+                        (
+                            [id] => 6
+                            [name] => Kippenren
+                            [cost_multiplier] => 2
+                            [max_store] => 50
+                            [type] => refinery
+                            [amount_per_hour] => 50
+                            [order] => 0
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 7
+                                                    [building_id] => 6
+                                                    [resource_id] => 1
+                                                    [amount] => 200
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 8
+                                                    [building_id] => 6
+                                                    [resource_id] => 2
+                                                    [amount] => 150
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [3] => Array
+                                (
+                                    [id] => 3
+                                    [name] => Graan
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 2
+                                            [buildings_city_id] => 62
+                                            [resource_id] => 3
+                                            [type] => incoming
+                                            [amount] => 45
+                                            [update_time] => 2010-12-05 11:03:37
+                                        )
+
+                                )
+
+                            [4] => Array
+                                (
+                                    [id] => 4
+                                    [name] => Kippe
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 1
+                                            [buildings_city_id] => 62
+                                            [resource_id] => 4
+                                            [type] => outgoing
+                                            [amount] => 0
+                                            [update_time] => 2010-12-05 11:03:37
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [58] => Array
+                (
+                    [id] => 58
+                    [building_id] => 5
+                    [city_id] => 1
+                    [level] => 2
+                    [upgrade_time] => 
+                    [created] => 2010-05-03 21:12:36
+                    [modified] => 2010-05-03 21:12:36
+                    [Building] => Array
+                        (
+                            [id] => 5
+                            [name] => Vet kleinbos
+                            [cost_multiplier] => 1.6
+                            [max_store] => 50
+                            [type] => gatherer
+                            [amount_per_hour] => 40
+                            [order] => 2
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 5
+                                                    [building_id] => 5
+                                                    [resource_id] => 1
+                                                    [amount] => 100
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 6
+                                                    [building_id] => 5
+                                                    [resource_id] => 2
+                                                    [amount] => 50
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [id] => 1
+                                    [name] => Hout
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 12
+                                            [buildings_city_id] => 58
+                                            [resource_id] => 1
+                                            [type] => outgoing
+                                            [amount] => 50
+                                            [update_time] => 2010-12-05 11:03:37
+                                            [orig_amount] => 25
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [57] => Array
+                (
+                    [id] => 57
+                    [building_id] => 4
+                    [city_id] => 1
+                    [level] => 1
+                    [upgrade_time] => 
+                    [created] => 2010-05-03 21:12:32
+                    [modified] => 2010-05-03 21:12:32
+                    [Building] => Array
+                        (
+                            [id] => 4
+                            [name] => Steengroeve
+                            [cost_multiplier] => 1.6
+                            [max_store] => 50
+                            [type] => gatherer
+                            [amount_per_hour] => 60
+                            [order] => 3
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 3
+                                                    [building_id] => 4
+                                                    [resource_id] => 1
+                                                    [amount] => 100
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 4
+                                                    [building_id] => 4
+                                                    [resource_id] => 2
+                                                    [amount] => 50
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [2] => Array
+                                (
+                                    [id] => 2
+                                    [name] => Steen
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 15
+                                            [buildings_city_id] => 57
+                                            [resource_id] => 2
+                                            [type] => outgoing
+                                            [amount] => 74
+                                            [update_time] => 2010-12-05 11:03:37
+                                            [orig_amount] => 37
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [64] => Array
+                (
+                    [id] => 64
+                    [building_id] => 1
+                    [city_id] => 1
+                    [level] => 2
+                    [upgrade_time] => 
+                    [created] => 2010-06-22 23:07:03
+                    [modified] => 2010-06-22 23:07:03
+                    [Building] => Array
+                        (
+                            [id] => 1
+                            [name] => Stadhuis
+                            [cost_multiplier] => 1.5
+                            [max_store] => 500
+                            [type] => storage
+                            [amount_per_hour] => 0
+                            [order] => 1
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 1
+                                                    [building_id] => 1
+                                                    [resource_id] => 1
+                                                    [amount] => 200
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 2
+                                                    [building_id] => 1
+                                                    [resource_id] => 2
+                                                    [amount] => 100
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [id] => 1
+                                    [name] => Hout
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 4
+                                            [buildings_city_id] => 64
+                                            [resource_id] => 1
+                                            [type] => incoming
+                                            [amount] => 500
+                                            [update_time] => 2010-12-05 11:03:37
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [id] => 2
+                                    [name] => Steen
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 8
+                                            [buildings_city_id] => 64
+                                            [resource_id] => 2
+                                            [type] => incoming
+                                            [amount] => 500
+                                            [update_time] => 2010-12-05 11:03:37
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [68] => Array
+                (
+                    [id] => 68
+                    [building_id] => 7
+                    [city_id] => 1
+                    [level] => 4
+                    [upgrade_time] => 2010-12-04 12:19:14
+                    [created] => 2010-11-25 18:58:51
+                    [modified] => 2010-11-25 18:58:51
+                    [Building] => Array
+                        (
+                            [id] => 7
+                            [name] => Wijnboerderij
+                            [cost_multiplier] => 1.6
+                            [max_store] => 50
+                            [type] => gatherer
+                            [amount_per_hour] => 50
+                            [order] => 5
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 9
+                                                    [building_id] => 7
+                                                    [resource_id] => 1
+                                                    [amount] => 150
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 10
+                                                    [building_id] => 7
+                                                    [resource_id] => 2
+                                                    [amount] => 150
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [5] => Array
+                                (
+                                    [id] => 5
+                                    [name] => Wijn
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 20
+                                            [buildings_city_id] => 68
+                                            [resource_id] => 5
+                                            [type] => outgoing
+                                            [amount] => 62
+                                            [update_time] => 2010-12-05 11:03:37
+                                            [orig_amount] => 31
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [69] => Array
+                (
+                    [id] => 69
+                    [building_id] => 8
+                    [city_id] => 1
+                    [level] => 3
+                    [upgrade_time] => 
+                    [created] => 2010-11-28 15:36:12
+                    [modified] => 2010-11-28 15:36:12
+                    [Building] => Array
+                        (
+                            [id] => 8
+                            [name] => Graanboerderij
+                            [cost_multiplier] => 1.6
+                            [max_store] => 50
+                            [type] => gatherer
+                            [amount_per_hour] => 60
+                            [order] => 4
+                            [Resource] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => Hout
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 11
+                                                    [building_id] => 8
+                                                    [resource_id] => 1
+                                                    [amount] => 150
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Steen
+                                            [BuildingsResource] => Array
+                                                (
+                                                    [id] => 12
+                                                    [building_id] => 8
+                                                    [resource_id] => 2
+                                                    [amount] => 150
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [Resource] => Array
+                        (
+                            [3] => Array
+                                (
+                                    [id] => 3
+                                    [name] => Graan
+                                    [BuildingsCitiesResource] => Array
+                                        (
+                                            [id] => 13
+                                            [buildings_city_id] => 69
+                                            [resource_id] => 3
+                                            [type] => outgoing
+                                            [amount] => 74
+                                            [update_time] => 2010-12-05 11:03:37
+                                            [orig_amount] => 37
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [incoming] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 4
+                    [buildings_city_id] => 64
+                    [resource_id] => 1
+                    [type] => incoming
+                    [amount] => 500
+                    [update_time] => 2010-12-05 11:03:37
+                    [name] => Hout
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [buildings_city_id] => 64
+                    [resource_id] => 2
+                    [type] => incoming
+                    [amount] => 500
+                    [update_time] => 2010-12-05 11:03:37
+                    [name] => Steen
+                )
+
+            [3] => Array
+                (
+                    [id] => 2
+                    [buildings_city_id] => 62
+                    [resource_id] => 3
+                    [type] => incoming
+                    [amount] => 45
+                    [update_time] => 2010-12-05 11:03:37
+                    [name] => Graan
+                )
+
+        )
+
+    [outgoing] => Array
+        (
+            [1] => Array
+                (
+                    [id] => 12
+                    [buildings_city_id] => 58
+                    [resource_id] => 1
+                    [type] => outgoing
+                    [amount] => 75.022222222222
+                    [update_time] => 2010-12-05 11:03:37
+                    [orig_amount] => 25
+                    [name] => Hout
+                )
+
+            [2] => Array
+                (
+                    [id] => 15
+                    [buildings_city_id] => 57
+                    [resource_id] => 2
+                    [type] => outgoing
+                    [amount] => 111.53333333333
+                    [update_time] => 2010-12-05 11:03:37
+                    [orig_amount] => 37
+                    [name] => Steen
+                )
+
+            [3] => Array
+                (
+                    [id] => 13
+                    [buildings_city_id] => 69
+                    [resource_id] => 3
+                    [type] => outgoing
+                    [amount] => 111.53333333333
+                    [update_time] => 2010-12-05 11:03:37
+                    [orig_amount] => 37
+                    [name] => Graan
+                )
+
+            [4] => Array
+                (
+                    [id] => 1
+                    [buildings_city_id] => 62
+                    [resource_id] => 4
+                    [type] => outgoing
+                    [amount] => 0
+                    [update_time] => 2010-12-05 11:03:37
+                    [name] => Kippe
+                )
+
+            [5] => Array
+                (
+                    [id] => 20
+                    [buildings_city_id] => 68
+                    [resource_id] => 5
+                    [type] => outgoing
+                    [amount] => 93.277777777778
+                    [update_time] => 2010-12-05 11:03:37
+                    [orig_amount] => 31
+                    [name] => Wijn
+                )
+
+        )
+
+)

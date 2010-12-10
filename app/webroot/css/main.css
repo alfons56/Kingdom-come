@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	/*border: 1px solid black;*/
+}
+
+#menu {
+	float: left;
+	padding-right: 10px;
+}
+
+#page_content {
+	float: left;
+	padding-left: 10px;
+}
+
+div {
+	/*border: 1px solid black;*/
+}
+
+.clear_left {
+	clear: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+	.building_item {
+		min-width: 100px;
+		vertical-align: middle;
+	}
+	
+	.resource_item {
+		min-width: 100px;
+		vertical-align: middle;
+	}
+
+.green_light {
+	color: green;
+}
+
+.red_light {
+	color: red;
+}
+
+.bullet {
+	vertical-align: middle;
+	padding-right: 4px;
+}
